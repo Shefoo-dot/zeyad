@@ -1,0 +1,83 @@
+img {
+    width: 300px;
+    border: 6px solid rgb(18, 18, 17);
+    border-radius: 20px ;
+    border-collapse: collapse;
+    border-right-width: 6px;
+   margin: 5% 5% 5% 5%;
+}
+h1  {
+text-align: center;
+font-family:'Arial',;
+font-size: 30px;
+font-weight: bolder;
+font-style:italic;
+color:transparent;
+background: linear-gradient(45deg,#ff7e5f,#feb47b);
+background-clip: text;
+text-transform: capitalize;
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+padding: 20px;
+margin: 20px 0;
+transition:transform  0.4s ease, color 2s ease;
+}
+h1:hover {
+    transform:scale3d(1.5,1.5,1);
+    color: #fff; 
+}
+body {
+   background: linear-gradient(135deg,#f8f3f1, #9afe7b);
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  justify-content:center;
+  min-height: 100vh;
+}
+h2  {
+    text-align: center;
+    font-family:'Arial',;
+    font-size: 30px;
+    font-weight: bolder;
+    font-style:italic;
+    color:transparent;
+    background: linear-gradient(70deg,#ff7e5f,#4e0fe0);
+    background-clip: text;
+    text-transform: capitalize;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    padding: 20px;
+    margin: 20px 0;
+    transition:transform  0.4s ease, color 2s ease; 
+}
+#ab {
+    font-family:'Arial',;
+    font-size: 14px;
+    font-weight: bold;
+    font-style:italic;
+    color:transparent;
+    background: linear-gradient(70deg,#e80a93,#ed73aa);
+    background-clip: text;
+    text-transform: capitalize;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    transition:transform  0.4s ease, color 2s ease; 
+}
+a {
+    
+    font-family:'Arial',;
+    font-size: 15px;
+    font-weight: bolder;
+    font-style:italic;
+    color:transparent;
+    background: linear-gradient(70deg,#0b0301,#b5b0ab);
+    background-clip: text;
+    text-transform: capitalize;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    padding: 1vw;
+    margin: 1vw 0;
+    transition:transform  0.4s ease, color 2s ease; 
+}
+a:hover {
+    transform:scale3d(1.5,1.5,1);
+    color: #fff; 
+}
