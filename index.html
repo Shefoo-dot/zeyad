@@ -1,21 +1,20 @@
 <!DOCTYPE html>
-<html>
+<html lang="ar">
     <head>
         <meta charset="UTF-8"/>
         <title>خش برجلك اليمين بيتتك و مطرحك</title>
-        <link rel="stylesheet" href="kenzy.css">
-        <meta
-              name="description"
-              content="هذا الموقع بخصوص ��علامك عن خش برجلك اليمين بيتتك و مطرحك."/>
+        <link rel="stylesheet" type="text/css" href="kenzy.css">
         <meta 
           name="viewport"
-          content="width=device-width,initial-scale=1.0">      
+          content="width=device-width,initial-scale=1.0"> 
+               <script src="kenzy.js"> </script>
     </head>
     <body>
-        <h1>This is Kenzy website for tells the story </h1>
+        <h1><span class="Zey-text">This is Kenzy website for tells the story</span> </h1>
+        
         <h2>خش برجلك اليمين بيتك و مطرحك</h2>
         <p>Welcome to our <b>Story With Kenzy</b> website.</p>
-    <hr>
+    
     <ul>
         <li>
              <p id="ab">University friends</p>
@@ -25,22 +24,34 @@
             </li>
 
         <li>
-             <p id="ab">Family members</p>
-            <ul>
-                <li>Grand Mothers</li>
-                <li>Fathers</li>
-                <li>Mothers</li>
-                <li>Zeyad</li>
-                <li> Hana</li>
-                <li> Jana</li>
-                <li> Farida</li>
-                <li> Rodayna</li>
-                <li> Gody</li>
-            </ul>
-            </li>  
+            <p id="ab">Family members</p>
+            <div class="cards-container">
+                <div class="card">
+                    <h3>teta zozo</h3>
+                    <p>الكل في الكل</p>
+                    <button>تواصل</button>
+                    </div>
+                <div class="card">
+                    <h3>My Father</h3>
+                    <p>عم الناس</p>
+                    <button>تواصل</button>
+                    </div>
+                <div class="card">
+                    <h3>My Mother</h3>
+                    <p>قلبي</p>
+                    <button>تواصل</button>
+                    </div>
+                <div class="card">
+                    <h3>Zeyad</h3>
+                    <p>حبيبي</p>
+                    <button onclick="changeText(shefo)">تواصل</button>
+                    </div>
+           </div>
+            
+           
     </ul>
-    <hr>
-    <b id="abc"> Firstly </b> <h2>friends</h2>
+    
+     <h2>friends</h2>
     <img src ="hii.jpg" >
     <p>  هؤلاء الاشخاص انا مش لاقية كلام عليهم ليه بقي لأنهم كلهم علي بعض 46 شخص 
         وقرفيني في عيشتي ومحسسيني اني بتكبر عليهم لكن والله انا كيوت جدا ومش في 
@@ -52,11 +63,11 @@
         راح حد راح كاتب عليه بالجاف اسمي حاجه في قمة الاستفزاز يعني <br>
        <a href ="https://www.facebook.com/share/18rpnNYbAH/"
         target="_blank" 
-        title="افتح يا سمسم">Facebook Profile</a> وفيه بقي حاجات تانية كتير ممكن تدخلوا علي صفحتي غلي الفيسبوك 
+        title="افتح يا سمسم">Facebook Profile</a> وفيه بقي حاجات تانية كتير ممكن تدخلوا علي صفحتي علي الفيسبوك 
         
     </p>
-     <hr>
-     <b>Secondly</b><h2>Family Members</h2>
+    
+    <h2>Family Members</h2>
      <p>  دول بقي عيلتي <br>
     <b>تيته</b> دي قلبنا كلنا و زي العسل جدا وعارفين الناس اللي هما القدام 
     بيبقي عندهم كده حكمة عظيمة جدا بجد ربنا يخليها لينا كلنا </p>
@@ -71,8 +82,7 @@
     <p> هعملهم جدول كده كيوت </p>
 
 
-    <table border="3" style="background-color: mediumpurple;
-    text-align: center;">
+    <table border="5" class="SHEFO-table">
         <thead>
             <tr>
                 <th> Zeyad </th>
@@ -99,5 +109,6 @@
     <a href="https://www.instagram.com/kenzy.yasser.397?igsh=MWxscXJlaXh4YzZ3Yg==" 
         target="_blank"
         title="هيا الي عالم الابداع"> INSTAGRAM PAGE </a> 
+        <button> click me</button>
     </body>
 </html>
